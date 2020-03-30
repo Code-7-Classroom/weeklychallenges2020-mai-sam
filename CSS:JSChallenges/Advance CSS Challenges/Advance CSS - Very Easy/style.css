@@ -1,0 +1,26 @@
+.chessboard {
+    width: 640px;
+    height: 640px;
+    margin: 20px;
+    border: 25px solid #333;
+}
+
+.row{
+  display:flex
+}
+
+.black {
+    width: 80px;
+    height: 80px;
+    background-color: #000;
+}
+.white {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+}
+
+.row-2{
+  display:flex;
+  flex-direction:row-reverse;
+}
