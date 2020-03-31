@@ -1,0 +1,231 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+/*----------------- NavBar---------------------- */
+header{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    background-color: #7bdee3;
+}
+
+
+
+
+.cart{
+    width:50px;
+    height:50px;
+}
+
+.logo-container,.nav-links,.div-cart{
+    display: flex;
+}
+
+.logo-container{
+    flex: 1;
+    margin-left: 1em;
+    height: 12em;
+}
+
+nav{
+    flex:2;
+
+}
+
+.div-cart{
+    flex:1;
+    justify-content: flex-end;
+    margin-right: 1em;
+}
+
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link{
+    color:#5f5f79;
+    font-size: 35px;
+    text-decoration: none;
+
+}
+
+/*------- Main Content ------ */
+main{
+    background-color: #C1E0F7;
+}
+
+
+.parent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+  
+  }
+  
+  .card{
+    width: 25%;
+    height: auto;
+    position: relative;
+    margin-top: 10px;
+  
+  }
+  
+  .product-image{
+    width: 95%;
+    height: 70%;
+    display: flex;
+   margin: auto;
+    
+  }
+  
+  .product-image2{
+    width:65%;
+    height:45%;
+    display: flex;
+   margin: auto;
+  }
+  
+  h2{
+    text-align: center; 
+    font-size: 23px;
+    padding-bottom: 25px;
+    }
+  
+
+ 
+   .bold{
+      font-weight: bold;
+    }
+  
+  
+  .price{
+      font-size: 25px;
+text-align: center;
+margin-bottom: 30px;
+  }
+
+
+
+.toggle-button{
+    position: absolute;
+    top:  8rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+/*-----------------Footer---------------------- */
+  footer {
+    padding : 10px;
+    color : #5f5f79;
+    background-color :  #7bdee3;
+    text-align : center;
+    right : 0;
+    bottom : 0;
+    left : 0;
+    }
+    .icons img {
+    width : 40px;
+    height : 40px;
+    margin-left : 20px;
+    margin-right : 20px;
+    }
+    .footerfont {
+    font-size : 25px;
+    }
+    
+    footer p{
+        color : #000000;
+
+    }
+
+
+
+    
+
+
+  @media screen and (max-width:1200px){
+      .card{
+          width: 40%;
+      }
+  }
+
+  @media screen and (max-width:800px){
+      .card{
+          width: 40%;
+      }
+
+      .product-image{
+          height: 300px;
+          width: 300px;
+      }
+      header{
+          flex-direction: column;
+          align-items: flex-start;
+      }
+
+      .toggle-button{
+          display: flex;
+      }
+
+      .logo-container{
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        }
+        
+        
+      
+      .nav-links{
+          display: none;
+          width: 100%;
+      }
+      .nav-links ul{
+          width: 100%;
+          flex-direction: column;
+      }
+      .nav-links ul li{
+          text-align: center;
+      }
+
+      .nav-links ul li a{
+          padding: .5rem 1rem;
+      }
+
+      .nav-links.active{
+          display: flex;
+      }
+    
+      .div-cart{
+          display: none;
+      }
+
+      .nav-links.active{
+        margin-left: 8em;
+        margin-right: 6em;
+      }
+    
+    }

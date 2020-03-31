@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+/*----------------- NavBar---------------------- */
+header{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    background-color: #7bdee3;
+}
+
+
+.cart{
+    width:50px;
+    height:50px;
+}
+
+.logo-container,.nav-links,.div-cart{
+    display: flex;
+}
+
+.logo-container{
+    flex: 1;
+    margin-left: 1em;
+    height: 12em;
+}
+
+nav{
+    flex:2;
+
+}
+
+.div-cart{
+    flex:1;
+    justify-content: flex-end;
+    margin-right: 1em;
+}
+
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link{
+    color:#5f5f79;
+    font-size: 35px;
+    text-decoration: none;
+
+}
+
+
+main{
+    background-color: #C1E0F7;
+}
+
+/*------ Content ---- */
+.showcase {
+    width: 100%;
+    height: 50%;
+  }
+
+  h1{
+      text-align: center;
+      font-size: 2em;
+  }
+
+
+
+  /*-----------------Footer---------------------- */
+footer {
+    padding : 10px;
+    color : #5f5f79;
+    background-color :  #7bdee3;
+    text-align : center;
+    right : 0;
+    bottom : 0;
+    left : 0;
+    }
+    .icons img {
+    width : 40px;
+    height : 40px;
+    margin-left : 20px;
+    margin-right : 20px;
+    }
+    .footerfont {
+    font-size : 25px;
+    }
+    
+    footer p{
+        color : #000000;
+
+    }
+
+
+    

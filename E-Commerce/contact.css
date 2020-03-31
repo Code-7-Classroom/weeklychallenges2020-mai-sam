@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+/*----------------- NavBar---------------------- */
+header{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    background-color: #7bdee3;
+}
+
+
+
+
+.cart{
+    width:50px;
+    height:50px;
+}
+
+.logo-container,.nav-links,.div-cart{
+    display: flex;
+}
+
+.logo-container{
+    flex: 1;
+    margin-left: 1em;
+    height: 12em;
+}
+
+nav{
+    flex:2;
+
+}
+
+.div-cart{
+    flex:1;
+    justify-content: flex-end;
+    margin-right: 1em;
+}
+
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link{
+    color:#5f5f79;
+    font-size: 35px;
+    text-decoration: none;
+
+}
+
+/*-------------Contact---*/
+.contact {
+    margin : 0;
+    padding : 0;
+    text-align : center;
+    }
+    body {
+        background-color: #C1E0F7;
+        }
+    .contact-title {
+    margin-top : 100px;
+    transition : all 4s ease-in-out;
+    }
+    .contact-title h1 {
+    line-height : 10px;
+    }
+    .contact-title h2 {
+    font-size : 16px;
+    }
+    form {
+    margin-top : 50px;
+    transition : all 4s ease-in-out;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    }
+    .form-control {
+    width : 600px;
+    background : #ffffff;
+    border : none;
+    outline : none;
+    border-bottom : 1px #fff;
+    color : #fff;
+    font-size : 18px;
+    margin-bottom : 16px;
+    border-style : solid;
+    border-width : 2px;
+    border-color : black;
+    }
+    input {
+    height : 45px;
+    }
+    form .submit {
+    background : #ff5722;
+    background-color : #ffffff;
+    color : #000;
+    font-size : 20px;
+    font-weight : bold;
+    letter-spacing : 2px;
+    height : 50px;
+    margin-top : 20px;
+    }
+    form .submit:hover {
+    background-color : #e76e0a;
+    cursor : pointer;
+    }
+    
+    message{
+      left: 50px;
+    }
+    label{
+      opacity: 0.01;
+      left: 50px;
+    }
+
+/*-----------------Footer---------------------- */
+footer {
+    padding : 10px;
+    color : #ffffff;
+    background-color :  #7bdee3;
+    text-align : center;
+    
+    }
+    .icons img {
+    width : 40px;
+    height : 40px;
+    margin-left : 20px;
+    margin-right : 20px;
+    }
+    .footerfont {
+    font-size : 25px;
+    }
+    
