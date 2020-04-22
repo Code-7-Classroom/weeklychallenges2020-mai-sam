@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>
+        VERY EASY: What is the difference between the following JavaScript keywords: var, let and const. Please provide a written explanation. 
+        You are able to include a code reference along with your written explanation for each keyword.
+    </h1>
+
+    <p>
+      1. The var statement declares a variable. Variables are containers for
+      storing information. 
+      
+      Example: 
+      var = variable 
+      
+      2. The difference btween var and
+      let is that instead of being function scoped, let is block scoped, which
+      means that a variable with the let keyowrd is always inside a nested
+      block.
+
+      Example: 
+      function discountPrices (prices, discount) {
+        let discounted = []
+      
+        for (let i = 0; i < prices.length; i++) {
+          let discountedPrice = prices[i] * (1 - discount)
+          let finalPrice = Math.round(discountedPrice * 100) / 100
+          discounted.push(finalPrice)
+        }
+
+      3. Const is almost the exact same as let however the difference is that
+      the value that you assign to const cannot be changed. 
+
+      Example: 
+      const car = {type:"Fiat", model:"500", color:"white"};
+      car = {type:"Volvo", model:"EX60", color:"red"};    // ERROR 
+    </p>
+  </body>
+</html>
