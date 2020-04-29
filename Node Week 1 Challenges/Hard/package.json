@@ -7,5 +7,10 @@
   },
   "author": "Sam Mai",
   "license": "MIT",
-  "description": ""
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "module": "^1.2.5"
+  }
 }
