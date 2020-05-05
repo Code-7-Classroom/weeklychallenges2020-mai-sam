@@ -1,0 +1,64 @@
+{
+    "students":[
+        {
+            "name":"Peter Parker",
+            "id":1,
+            "salary":1000000,
+            "job":"Spider-Man"
+        },
+        {
+            "name":"Steve Rogers",
+            "id":2,
+            "salary":1500000,
+            "job":"Captain America" 
+        },
+        {
+            "name":"Stephen Strange",
+            "id":3,
+            "salary":2000000,
+            "job":"Dr.Strange" 
+        },
+        {
+            "name":"Clint Barton",
+            "id":4,
+            "salary":2000000,
+            "job":"Hawkeye" 
+        },
+        {
+            "name":"Tony Stark",
+            "id":5,
+            "salary":2000000,
+            "job":"Ironman" 
+        },
+        {
+            "name":"Bruce Banner",
+            "id":6,
+            "salary":2000000,
+            "job":"The Incredible Hulk" 
+        },
+        {
+            "name":"Thor",
+            "id":7,
+            "salary":2000000,
+            "job":"God of Thunder" 
+        },
+        {
+            "name":"Wanda Maxioff",
+            "id":8,
+            "salary":2000000,
+            "job":"Scarlett Witch" 
+        },
+        {
+            "name":"Natasha Romanova",
+            "id":3,
+            "salary":2000000,
+            "job":"Black Widow" 
+        },
+        {
+            "name":"Peter Quill",
+            "id":3,
+            "salary":100000,
+            "job":"Star-lord" 
+        }
+    ]
+}

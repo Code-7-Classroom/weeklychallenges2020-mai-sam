@@ -5,22 +5,21 @@ If that amount of money cannot be made up by any combination of the coins, retur
 */
 
 
-//1. Make an array contanining the set of coin values. 
+var change = {};
 
-const coins= [1, 5, 10, 25]
+const coinTypes = ["dollar", "quarter","nickle", "penny"];
 
-//2. Determine an amount that can be reached using those numbers with the least amount of coins.
+const coinValues =[100, 25, 10, 5, 1]
 
-const total = 31 //25 + 5 + 1 = 31
+var amount;
 
-
-//3. Make a function that has both the coins and the total, Using math.max and math.mix to find the highest and lowest number in the array
-
-coinChange = (coins, total) =>{
-    var highestNumber = Math.max(coins)
-    var lowestNumber = Math.min(coins)
+for (var i = 0; i <coinValues.length; i++) {
+    amount = Math.floor(returnValue/coinValues[i]);
+    if (amount > 0) {
+        change [coinTypes[i]] = amount;
+        returnValue = returnValue%coinValues[i];
+    }
 }
 
-//4. Make the for loop that runs the the total and subtract all the numbers of the coin array until it equals zero, if it's either negative 
-// or have numbers that it can't subtract by any other coins. 
-
+return change
+console.log(calculateChange(50, 270));
